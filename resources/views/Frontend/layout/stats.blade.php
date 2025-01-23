@@ -20,7 +20,7 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
             <div class="stat"> <img src="{{ asset('assets/images/stat4.png')}}" alt="">
-                <h3>$ {{$total_withdraw + 5 }}</h3>
+                <h3>$ {{$total_withdraw }}</h3>
                 <p>Total Withdrawal</p>
             </div>
         </div>
