@@ -72,7 +72,7 @@ class DespositController extends Controller
                 break;
 
             case 'Payeer':
-                $secret = 'qNekWQzFqzyAfSzK'; // Your Payeer secret key
+                $secret = '14Tw6ss8LfeZToZ6'; // Your Payeer secret key
                 $shopId = '2133008988'; // Your Payeer shop ID
                 $wallet = 'P1123089445';
                 $amount_crypto = null;
