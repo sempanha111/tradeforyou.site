@@ -138,7 +138,9 @@ class DespositController extends Controller
                 $my_wallet = [
                     '3BvX5ipX3uRkvqEnXmMNNVW6DS3XxyEDgb',
                     '3KJzUaR6fwRwVLWfPjxeE5uJ1jNBkA7HcF',
-                    '3A7SrNCJmgozqUMVhbztXiEPBKEUcGKYDE'
+                    '3A7SrNCJmgozqUMVhbztXiEPBKEUcGKYDE',
+                    '35hsci23hQ2gwkoJzWkax6E8uDByZq3ZfF',
+                    '13LAsq2CbU7cexTMa3i9gzHuEPNJdygKKq',
                 ];
 
                 $amountToCheck = number_format($request_deposit_amount / $this->generalService->Get_PriceOfCrypto($type), 8); // Starting amount to check
@@ -221,7 +223,9 @@ class DespositController extends Controller
                 $my_wallet = [
                     'MGHtuaALaURDoX5DwCBTq7hvpM39MpFSHY',
                     'MDhDUXAxMfKtGMXVY9gVxqBQgm5WW3N12X',
-                    'MK9gL2zEKxA2gyu6MaVyUDonTdSnDqp5nC'
+                    'MK9gL2zEKxA2gyu6MaVyUDonTdSnDqp5nC',
+                    'ltc1qyjr8fjndk8l67xne2j8rv92mukzz82w7l32qmp',
+                    'LYRJuifgn4CqoKnvUnouTeY5cHtvYX2jyv',
                 ];
 
                 $amountToCheck = number_format($request_deposit_amount / $this->generalService->Get_PriceOfCrypto($type), 8); // Starting amount to check
@@ -303,7 +307,9 @@ class DespositController extends Controller
 
                 $my_wallet = [
                     '1M7dwMpJgNSR7P4QHVxHKgMJxdHJjdYcij',
-                    '1Avfbct2XeLEuxeLNhg2qunypBYq2iFsnE'
+                    '1Avfbct2XeLEuxeLNhg2qunypBYq2iFsnE',
+                    'qr2m6tjls7elzcs08cp707z7t0tkyqzqvyr3vdn6ru',
+                    'bitcoincash:qqsm2jqk7xpk5f66evnc4hrazjvuyvw83v76txn9st'
                 ];
 
                 $amountToCheck = number_format($request_deposit_amount / $this->generalService->Get_PriceOfCrypto($type), 8); // Starting amount to check
@@ -384,8 +390,8 @@ class DespositController extends Controller
 
                 $my_wallet = [
                     '0x310ED57aC2b9daF8337430F593FB9FEC9347fb8a',
+                    '0x6C6CFcd53d23065c99AA60Eb1bcc50f36953A05b',
                     '0x723942748f92F7Bd9a29CaB4B0fE2984fbB8C717',
-                    '0x6C6CFcd53d23065c99AA60Eb1bcc50f36953A05b'
                 ];
 
                 $amountToCheck = number_format($request_deposit_amount / $this->generalService->Get_PriceOfCrypto($type), 8); // Starting amount to check
