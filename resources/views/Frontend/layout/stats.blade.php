@@ -8,7 +8,7 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
             <div class="stat"> <img src="{{ asset('assets/images/stat2.png')}}" alt="">
-                <h3>$ {{$total_deposit + 128 }}</h3>
+                <h3>$ {{$total_deposit + 118 }}</h3>
                 <p>Total Deposited</p>
             </div>
         </div>

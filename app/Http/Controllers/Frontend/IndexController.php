@@ -28,7 +28,7 @@ class IndexController extends Controller
 
     public function index()
     {
-        $releaseDate = new DateTime('2025-01-23'); // Replace with the release date
+        $releaseDate = new DateTime('2025-01-27'); // Replace with the release date
         $currentDate = new DateTime(); // Current date
         $interval = $releaseDate->diff($currentDate); // Calculate the difference
         $days = $interval->days; // Get the total number of days
